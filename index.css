@@ -3,6 +3,13 @@ body{
 	margin: 0;
 	padding: 0;
 }
+html, body {
+
+/* Убирает прокрутку по горизонтале, для мобильной версии */
+
+overflow-x: hidden;
+
+}
 a{
 	text-decoration: none;
 	color:black;
