@@ -32,6 +32,9 @@ function checkScrollDown() {
 	} else{
 		buttonTop.classList.remove('scroll__top_active');
 	}
+	if(scrollPos > 2328){
+		buttonTop.classList.remove('scroll__top_active');
+	}
 }
 
 window.addEventListener("scroll", checkScrollDown);
